@@ -3,3 +3,4 @@ _site/
 *.lock
 *.swp
 .jekyll-*
+.markdown-*
