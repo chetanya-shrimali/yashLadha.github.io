@@ -5,10 +5,9 @@ comments: false
 ---
 <div class="blurb">
   {% for post in site.posts %}
-  <div class="card">
+  <div class="card" onClick="window.location.href='{{ post.url }}'">
     <div class="container">
-      <h3><b>{{ post.title }}</b></h3>
-      <a href={{ post.url }} style="color:#9C27B0;">{{ post.title }}</a>
+      <h3 style="padding-top: 12px;"><b>{{ post.title }}</b></h3>
     </div>
   </div>
   <br>

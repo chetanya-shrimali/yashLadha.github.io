@@ -13,7 +13,7 @@ nav ul li, footer ul li {
   display: inline;
   margin-right: 20px;
 }
-a {
+.link {
   text-decoration: none;
   color: #ff0066 !important;
 }
@@ -33,7 +33,7 @@ p {
 .card {
   margin: 0 auto;
   text-align: center;
-  background-color: #F50057;
+  background-color: #F50057 !important;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
@@ -46,7 +46,7 @@ p {
 }
 
 container {
-  padding: 2px 16px;
+  padding: 3px 16px;
 }
 
 footer {
