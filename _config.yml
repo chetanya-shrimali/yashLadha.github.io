@@ -1,3 +1,4 @@
 name: yashLadha, Coderite
 markdown: kramdown
 permalink: /:title/
+comments: true
