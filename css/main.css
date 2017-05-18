@@ -2,25 +2,23 @@ body {
   margin: 0;
   background-color: #CFD8DC;
 }
+
 footer ul {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
   padding: 0px;
   list-style: none;
   font-weight: bold;
 }
+
 footer ul li {
   display: inline;
   margin-right: 20px;
 }
+
 .link {
-  font-size: 1.62em;
+  font-size: 1.42em;
   text-decoration: none;
   color: black !important;
-}
-
-a:hover {
-  text-decoration: underline;
-  color : #CDDC39;
 }
 
 h1 {
@@ -41,17 +39,37 @@ ul {
   padding: 0;
   width: 15%;
   text-align: center;
-  background-color: #009688;
-  position: fixed;
+  background-color: #004D40;
+  position: absolute;
   height: 100%;
   overflow: auto;
 }
 
 li a {
   display: block;
-  color: #000;
+  color : #CDDC39;
+  font-size: 1.62em;
   padding: 8px 16px;
   text-decoration: none;
+  -webkit-transition: .3s all;   
+  -webkit-transition-delay: .6s; 
+  -moz-transition: .3s all;   
+  -moz-transition-delay: .6s; 
+  -ms-transition: .3s all;   
+  -ms-transition-delay: .6s; 
+  -o-transition: .3s all;   
+  -o-transition-delay: .6s; 
+  transition: .3s all;   
+  transition-delay: .6s; 
+}
+
+li a:hover {
+  color: #4FC3F7;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
 }
 
 li a.active {
@@ -61,7 +79,8 @@ li a.active {
 
 li a:hover:not(.active) {
   background-color: #00695C;
-  color: white;
+  text-decoration: underline;
+  color: #4FC3F7;
 }
 
 .card {
