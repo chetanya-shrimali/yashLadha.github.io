@@ -105,28 +105,6 @@ input[type=checkbox]:checked ~ #menu {
   display: block;
 }
 
-/*Responsive Style*/
-@media screen and (max-width: 890px) {
-  ul {
-    position: static;
-    display: none;
-    width: auto;
-  }
-
-  li {
-    margin-bottom: 1px;
-    width: 100%;
-  }
-
-  ul li, li a {
-    width: 100%;
-  }
-
-  .show-menu {
-    display: block;
-  }
-}
-
 .card {
   margin: 0 auto;
   text-align: center;
@@ -172,6 +150,33 @@ ul.posts li {
   width: 50px;
   height: 50px;
   padding: 15px;
+}
+
+/*Responsive Style*/
+@media screen and (max-width: 890px) {
+  ul {
+    position: static;
+    display: none;
+    width: auto;
+  }
+
+  li {
+    margin-bottom: 1px;
+    width: 100%;
+  }
+
+  ul li, li a {
+    width: 100%;
+  }
+
+  .show-menu {
+    display: block;
+  }
+
+  .card {
+    width: 500px;
+    height: 150px;
+  }
 }
 
 /* Just for learning purpose */
