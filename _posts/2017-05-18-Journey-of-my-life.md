@@ -44,9 +44,9 @@ I always remember that when i came from school, i stay at my house for only an h
 there, we studied there, we laughed there, we made memories there. And i still remember i almost everyday (exaggeration) goes to 
 one of my friend's house to see and just talk to her. When i talk to her, it is the best feeling that i can experience and sitting behind
 me was the partner in my crime's. I shared almost everything to them and they were more like anything to me till now. There may be less
-conversation between us, but still you all will remain friends for my whole life.
+conversation between us, but still you all will remain friends for my whole life. **Do You?**
 
-And as i see this post is stretching too long, my take on friends at my college will be in my next post...
+And as i see this post is stretching too long, my take on friends at my college will be in my next post... till them **Be happy and make others Happy**
 
 
 **Feel free to comment**
